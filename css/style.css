@@ -23,7 +23,6 @@ ul{
 	 margin:auto;
 	 width:100%;
 	 min-width:320px;
-	 padding:10px 15px;
  }
  header{
 	 background-color:#122A57;
@@ -184,8 +183,8 @@ ul{
 	flex:1;
 	border:5px solid #122A57;
 	margin-right:20px;
-	padding:10px;/*
-	max-width:240px;*/
+	padding:10px;
+	max-width:240px;
 }
 
 .item-plano .btn{
@@ -259,7 +258,8 @@ footer .footer{
 	}
 	
 	#quem-somos img{
-		
+		min-width:320px;
+		margin:auto;
 		
 	}
 	.list-servicos{
@@ -273,10 +273,12 @@ footer .footer{
 	.list-planos{
 		flex-direction:column;
 		align-items:flex-start;
+		margin-bottom:20px;
 	}
 	.list-planos .item-plano{
 		max-width:90%;
 		margin:auto;
 		width:100%;
+		margin-bottom:20px;
 	}
 }
